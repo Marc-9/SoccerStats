@@ -29,4 +29,11 @@
  </ol>
  <p>So far thats all the functions you need to know how to call to get it running, then you can start some basic analystics, so the examples I give below only works for the data I input, which can be found in the src java file as of now</p>
 <p>Some initial analytics I ran was to find the number of goals scored in a season and how many shots there were in that season, etc<br />That code can be found in the src folder</p>
-  
+<h1>To do</h1>
+<ol>
+  <li>Finish InInterval... and other functions relating to dates</li>
+  <li>Add functions to automaticaly grab goals scored and other stats.</li>
+  <li>Add more stats and leagues </li>
+  <li>Make my own compare to function</li>
+  <li>Add stats for players</li>
+  <li>GUI</li>
