@@ -1,9 +1,9 @@
-# SoccerStats
+# SoccerStats Info
 
 <p>Soccer Stats is a Java Based program that allows the user to calculate any type of stats/data that they wish.</p>
 <p>Users may download their own data of any type and load it into the program and run a couple of pre-defined functions on them or make their own.</p>
 <p>Soccer Stats is still in its beginning so few commands exists and there is no GUI yet, additionally while Java is not the best language for data analytics it is very beginner friendly.</p>
-<h1>Files and Fucntions</h1>
+<h1>Files and Functions</h1>
 <p>Currently the program only contains two files, but they can be used for multiple different leagues</p>
 <h3>Games.java</h3>
 <p>The Games.java file has a Constructor Games that can take in different types of data, you can change this to fit whatever stats you have.</p>
@@ -18,10 +18,15 @@
 <h1> Commands </h1>
 <p>Now that you understand each file and their function lets learn how to implement these to run analytics on your data</p>
 <ol>
-  <li>Test</li>
+  <li>Season name = new Season();</li>
     <ul>
-      <li>Test</li>
+      <li>Firstly you need to create a Season Instance to work with the functions in that file.</li>
     </ul>
-  <li>Test</li>
+  <li>name.readGames("filename")</li>
+    <ul>
+      <li>Read the file into the program, and make sure you chnaged the constructor from Games.java so it understand it </li>
+    </ul>
  </ol>
+ <p>So far thats all the functions you need to know how to call to get it running, then you can start some basic analystics, so the examples I give below only works for the data I input, which can be found in the src java file as of now</p>
+<p>Some initial analytics I ran was to find the number of goals scored in a season and how many shots there were in that season, etc<br />That code can be found in the src folder</p>
   
