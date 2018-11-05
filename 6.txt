@@ -1,0 +1,380 @@
+8/26/17,Alaves,Barcelona,0,2,A,11,23,2,11
+9/17/17,Alaves,Villarreal,0,3,A,16,16,2,6
+9/23/17,Alaves,Real Madrid,1,2,A,8,21,3,7
+10/14/17,Alaves,Real Sociedad,0,2,A,8,13,0,6
+10/28/17,Alaves,Valencia,1,2,A,16,7,6,2
+11/4/17,Alaves,Espanol,1,0,H,17,9,6,3
+11/25/17,Alaves,Eibar,1,2,A,6,11,2,6
+12/8/17,Alaves,Las Palmas,2,0,H,22,6,9,1
+12/21/17,Alaves,Malaga,1,0,H,10,10,5,3
+1/14/18,Alaves,Sevilla,1,0,H,12,14,3,1
+1/21/18,Alaves,Leganes,2,2,D,14,8,6,4
+2/3/18,Alaves,Celta,2,1,H,9,16,3,4
+2/17/18,Alaves,Deportivo,1,0,H,14,5,3,0
+3/1/18,Alaves,Levante,1,0,H,15,6,5,1
+3/12/18,Alaves,Betis,1,3,A,9,10,1,4
+4/7/18,Alaves,Getafe,2,0,H,11,5,2,1
+4/19/18,Alaves,Girona,1,2,A,11,14,5,5
+4/29/18,Alaves,Atlético Madrid,0,1,A,7,14,3,6
+5/12/18,Alaves,Athletic Bilbao,3,1,H,4,13,3,4
+8/20/17,Athletic Bilbao,Getafe,0,0,D,12,8,2,2
+9/10/17,Athletic Bilbao,Girona,2,0,H,7,11,4,7
+9/20/17,Athletic Bilbao,Atlético Madrid,1,2,A,12,16,7,9
+10/14/17,Athletic Bilbao,Sevilla,1,0,H,15,14,2,6
+10/28/17,Athletic Bilbao,Barcelona,0,2,A,17,17,5,5
+11/19/17,Athletic Bilbao,Villarreal,1,1,D,15,7,3,4
+12/2/17,Athletic Bilbao,Real Madrid,0,0,D,11,19,4,4
+12/16/17,Athletic Bilbao,Real Sociedad,0,0,D,7,10,1,2
+1/7/18,Athletic Bilbao,Alaves,2,0,H,14,8,8,1
+1/26/18,Athletic Bilbao,Eibar,1,1,D,7,14,1,2
+2/9/18,Athletic Bilbao,Las Palmas,0,0,D,11,8,5,2
+2/25/18,Athletic Bilbao,Malaga,2,1,H,8,8,6,4
+2/28/18,Athletic Bilbao,Valencia,1,1,D,11,6,4,4
+3/11/18,Athletic Bilbao,Leganes,2,0,H,13,12,5,1
+3/31/18,Athletic Bilbao,Celta,1,1,D,11,13,2,3
+4/14/18,Athletic Bilbao,Deportivo,2,3,A,13,5,4,3
+4/23/18,Athletic Bilbao,Levante,1,3,A,18,11,5,7
+5/5/18,Athletic Bilbao,Betis,2,0,H,14,6,5,3
+5/20/18,Athletic Bilbao,Espanol,0,1,A,12,11,3,4
+9/16/17,Atlético Madrid,Malaga,1,0,H,17,9,4,4
+9/23/17,Atlético Madrid,Sevilla,2,0,H,13,11,4,0
+10/14/17,Atlético Madrid,Barcelona,1,1,D,5,15,4,7
+10/28/17,Atlético Madrid,Villarreal,1,1,D,18,12,6,4
+11/18/17,Atlético Madrid,Real Madrid,0,0,D,7,14,1,3
+12/2/17,Atlético Madrid,Real Sociedad,2,1,H,16,10,10,2
+12/16/17,Atlético Madrid,Alaves,1,0,H,10,11,4,0
+1/6/18,Atlético Madrid,Getafe,2,0,H,9,10,5,5
+1/20/18,Atlético Madrid,Girona,1,1,D,9,6,4,3
+1/28/18,Atlético Madrid,Las Palmas,3,0,H,18,9,7,1
+2/4/18,Atlético Madrid,Valencia,1,0,H,14,9,4,0
+2/18/18,Atlético Madrid,Athletic Bilbao,2,0,H,14,4,4,0
+2/28/18,Atlético Madrid,Leganes,4,0,H,15,9,8,3
+3/11/18,Atlético Madrid,Celta,3,0,H,7,8,3,2
+4/1/18,Atlético Madrid,Deportivo,1,0,H,15,10,3,2
+4/15/18,Atlético Madrid,Levante,3,0,H,13,11,5,3
+4/22/18,Atlético Madrid,Betis,0,0,D,10,10,2,4
+5/6/18,Atlético Madrid,Espanol,0,2,A,9,14,3,6
+5/20/18,Atlético Madrid,Eibar,2,2,D,8,14,4,3
+8/20/17,Barcelona,Betis,2,0,H,15,3,2,0
+9/9/17,Barcelona,Espanol,5,0,H,20,9,9,1
+9/19/17,Barcelona,Eibar,6,1,H,11,13,10,4
+10/1/17,Barcelona,Las Palmas,3,0,H,22,10,10,1
+10/21/17,Barcelona,Malaga,2,0,H,12,13,4,5
+11/4/17,Barcelona,Sevilla,2,1,H,18,8,6,3
+12/2/17,Barcelona,Celta,2,2,D,21,10,7,5
+12/17/17,Barcelona,Deportivo,4,0,H,23,10,11,3
+1/7/18,Barcelona,Levante,3,0,H,16,9,8,2
+1/28/18,Barcelona,Alaves,2,1,H,18,7,12,4
+2/11/18,Barcelona,Getafe,0,0,D,12,10,6,1
+2/24/18,Barcelona,Girona,6,1,H,21,10,14,4
+3/4/18,Barcelona,Atlético Madrid,1,0,H,16,6,5,1
+3/18/18,Barcelona,Athletic Bilbao,2,0,H,18,10,9,3
+4/7/18,Barcelona,Leganes,3,1,H,12,11,6,1
+4/14/18,Barcelona,Valencia,2,1,H,12,17,7,6
+5/6/18,Barcelona,Real Madrid,2,2,D,11,17,4,5
+5/9/18,Barcelona,Villarreal,5,1,H,12,20,6,7
+5/20/18,Barcelona,Real Sociedad,1,0,H,12,13,4,2
+8/25/17,Betis,Celta,2,1,H,10,9,3,2
+9/16/17,Betis,Deportivo,2,1,H,17,11,7,3
+9/25/17,Betis,Levante,4,0,H,14,8,6,1
+10/15/17,Betis,Valencia,3,6,A,13,13,6,9
+10/21/17,Betis,Alaves,2,0,H,12,7,5,3
+11/3/17,Betis,Getafe,2,2,D,15,9,4,2
+11/25/17,Betis,Girona,2,2,D,12,13,6,7
+12/10/17,Betis,Atlético Madrid,0,1,A,9,4,4,2
+12/22/17,Betis,Athletic Bilbao,0,2,A,16,19,6,7
+1/15/18,Betis,Leganes,3,2,H,16,10,9,6
+1/21/18,Betis,Barcelona,0,5,A,7,14,2,10
+2/3/18,Betis,Villarreal,2,1,H,13,12,4,3
+2/18/18,Betis,Real Madrid,3,5,A,20,12,5,9
+3/1/18,Betis,Real Sociedad,0,0,D,8,13,4,5
+3/17/18,Betis,Espanol,3,0,H,9,4,4,1
+4/7/18,Betis,Eibar,2,0,H,13,5,4,2
+4/19/18,Betis,Las Palmas,1,0,H,17,1,8,0
+4/30/18,Betis,Malaga,2,1,H,12,9,3,3
+5/12/18,Betis,Sevilla,2,2,D,9,13,5,5
+8/19/17,Celta,Real Sociedad,2,3,A,16,13,5,6
+9/10/17,Celta,Alaves,1,0,H,20,5,3,3
+9/21/17,Celta,Getafe,1,1,D,8,10,4,3
+9/29/17,Celta,Girona,3,3,D,16,10,9,6
+10/22/17,Celta,Atlético Madrid,0,1,A,19,4,8,2
+11/5/17,Celta,Athletic Bilbao,3,1,H,11,14,5,5
+11/24/17,Celta,Leganes,1,0,H,14,9,7,2
+12/17/17,Celta,Villarreal,0,1,A,10,8,3,5
+1/7/18,Celta,Real Madrid,2,2,D,10,19,5,8
+1/29/18,Celta,Betis,3,2,H,13,7,5,3
+2/11/18,Celta,Espanol,2,2,D,18,3,7,2
+2/24/18,Celta,Eibar,2,0,H,8,15,3,2
+3/5/18,Celta,Las Palmas,2,1,H,14,10,6,3
+3/18/18,Celta,Malaga,0,0,D,9,5,3,0
+4/7/18,Celta,Sevilla,4,0,H,12,16,6,6
+4/17/18,Celta,Barcelona,2,2,D,18,14,8,6
+4/21/18,Celta,Valencia,1,1,D,10,17,3,7
+5/5/18,Celta,Deportivo,1,1,D,13,11,4,2
+5/19/18,Celta,Levante,4,2,H,20,7,9,3
+8/27/17,Eibar,Athletic Bilbao,0,1,A,14,10,5,4
+9/15/17,Eibar,Leganes,1,0,H,10,5,4,2
+9/24/17,Eibar,Celta,0,4,A,9,10,0,6
+10/15/17,Eibar,Deportivo,0,0,D,15,11,6,3
+10/29/17,Eibar,Levante,2,2,D,16,3,6,2
+11/20/17,Eibar,Betis,5,0,H,17,4,7,0
+12/3/17,Eibar,Espanol,3,1,H,10,6,5,3
+12/16/17,Eibar,Valencia,2,1,H,15,7,3,3
+12/21/17,Eibar,Girona,4,1,H,16,6,6,1
+1/13/18,Eibar,Atlético Madrid,0,1,A,11,7,4,3
+1/22/18,Eibar,Malaga,1,1,D,15,10,4,4
+2/3/18,Eibar,Sevilla,5,1,H,17,11,7,3
+2/17/18,Eibar,Barcelona,0,2,A,13,10,3,6
+2/28/18,Eibar,Villarreal,1,0,H,13,11,1,3
+3/10/18,Eibar,Real Madrid,1,2,A,12,12,3,6
+4/1/18,Eibar,Real Sociedad,0,0,D,15,7,3,0
+4/15/18,Eibar,Alaves,0,1,A,21,2,4,1
+4/21/18,Eibar,Getafe,0,1,A,12,7,2,4
+5/12/18,Eibar,Las Palmas,1,0,H,10,8,5,2
+8/27/17,Espanol,Leganes,0,1,A,17,12,2,8
+9/18/17,Espanol,Celta,2,1,H,9,11,3,1
+9/24/17,Espanol,Deportivo,4,1,H,17,21,5,6
+10/13/17,Espanol,Levante,0,0,D,20,13,6,3
+10/30/17,Espanol,Betis,1,0,H,10,9,4,4
+11/19/17,Espanol,Valencia,0,2,A,12,7,4,3
+11/27/17,Espanol,Getafe,1,0,H,10,7,5,4
+12/11/17,Espanol,Girona,0,1,A,8,12,3,5
+12/22/17,Espanol,Atlético Madrid,1,0,H,7,9,4,1
+1/14/18,Espanol,Athletic Bilbao,1,1,D,11,8,3,3
+1/20/18,Espanol,Sevilla,0,3,A,9,12,0,7
+2/4/18,Espanol,Barcelona,1,1,D,7,12,2,2
+2/18/18,Espanol,Villarreal,1,1,D,15,8,3,3
+2/27/18,Espanol,Real Madrid,1,0,H,16,12,7,5
+3/11/18,Espanol,Real Sociedad,2,1,H,18,11,7,5
+4/1/18,Espanol,Alaves,0,0,D,12,13,3,4
+4/18/18,Espanol,Eibar,0,1,A,10,5,4,1
+4/28/18,Espanol,Las Palmas,1,1,D,16,13,7,2
+5/13/18,Espanol,Malaga,4,1,H,19,9,7,3
+8/27/17,Getafe,Sevilla,0,1,A,15,6,3,3
+9/16/17,Getafe,Barcelona,1,2,A,13,7,4,5
+9/24/17,Getafe,Villarreal,4,0,H,17,6,8,1
+10/14/17,Getafe,Real Madrid,1,2,A,8,16,3,6
+10/29/17,Getafe,Real Sociedad,2,1,H,10,15,5,4
+11/18/17,Getafe,Alaves,4,1,H,13,11,8,5
+12/3/17,Getafe,Valencia,1,0,H,11,13,3,6
+12/9/17,Getafe,Eibar,0,0,D,6,7,3,2
+12/20/17,Getafe,Las Palmas,2,0,H,13,17,7,6
+1/12/18,Getafe,Malaga,1,0,H,7,9,3,2
+1/19/18,Getafe,Athletic Bilbao,2,2,D,17,7,6,6
+2/4/18,Getafe,Leganes,0,0,D,11,2,1,1
+2/19/18,Getafe,Celta,3,0,H,9,4,5,1
+2/28/18,Getafe,Deportivo,3,0,H,14,9,5,1
+3/10/18,Getafe,Levante,0,1,A,11,12,4,4
+4/2/18,Getafe,Betis,0,1,A,8,7,4,4
+4/15/18,Getafe,Espanol,1,0,H,13,5,4,0
+4/29/18,Getafe,Girona,1,1,D,10,15,2,2
+5/12/18,Getafe,Atlético Madrid,0,1,A,11,5,4,3
+8/19/17,Girona,Atlético Madrid,2,2,D,13,9,6,3
+8/26/17,Girona,Malaga,1,0,H,15,7,4,2
+9/17/17,Girona,Sevilla,0,1,A,13,13,0,8
+9/23/17,Girona,Barcelona,0,3,A,13,9,2,5
+10/15/17,Girona,Villarreal,1,2,A,14,5,3,2
+10/29/17,Girona,Real Madrid,2,1,H,15,15,4,6
+11/17/17,Girona,Real Sociedad,1,1,D,14,14,4,5
+12/4/17,Girona,Alaves,2,3,A,11,9,3,4
+12/17/17,Girona,Getafe,1,0,H,9,7,2,0
+1/13/18,Girona,Las Palmas,6,0,H,15,3,8,1
+2/4/18,Girona,Athletic Bilbao,2,0,H,8,9,3,0
+2/16/18,Girona,Leganes,3,0,H,10,10,5,5
+2/27/18,Girona,Celta,1,0,H,11,10,2,2
+3/9/18,Girona,Deportivo,2,0,H,9,8,6,4
+3/31/18,Girona,Levante,1,1,D,12,15,5,6
+4/13/18,Girona,Betis,0,1,A,9,10,4,2
+4/22/18,Girona,Espanol,0,2,A,20,5,6,4
+5/5/18,Girona,Eibar,1,4,A,16,15,5,6
+5/12/18,Girona,Valencia,0,1,A,16,10,4,4
+8/20/17,Deportivo,Real Madrid,0,3,A,12,16,6,8
+9/10/17,Deportivo,Real Sociedad,2,4,A,11,15,4,4
+9/20/17,Deportivo,Alaves,1,0,H,15,8,3,3
+9/30/17,Deportivo,Getafe,2,1,H,15,10,9,3
+10/23/17,Deportivo,Girona,1,2,A,15,13,6,6
+11/4/17,Deportivo,Atlético Madrid,0,1,A,14,11,1,3
+11/26/17,Deportivo,Athletic Bilbao,2,2,D,14,10,4,3
+12/9/17,Deportivo,Leganes,1,0,H,15,3,4,0
+12/23/17,Deportivo,Celta,1,3,A,15,7,4,3
+1/13/18,Deportivo,Valencia,1,2,A,12,12,2,5
+1/27/18,Deportivo,Levante,2,2,D,8,15,2,4
+2/12/18,Deportivo,Betis,0,1,A,16,10,2,4
+2/23/18,Deportivo,Espanol,0,0,D,17,9,4,1
+3/3/18,Deportivo,Eibar,1,1,D,7,16,2,3
+3/17/18,Deportivo,Las Palmas,1,1,D,13,8,3,1
+4/6/18,Deportivo,Malaga,3,2,H,14,11,6,4
+4/17/18,Deportivo,Sevilla,0,0,D,22,24,6,7
+4/29/18,Deportivo,Barcelona,2,4,A,17,21,5,9
+5/12/18,Deportivo,Villarreal,2,4,A,16,11,7,7
+8/26/17,Las Palmas,Atlético Madrid,1,5,A,10,8,4,6
+9/17/17,Las Palmas,Athletic Bilbao,1,0,H,12,11,3,5
+9/24/17,Las Palmas,Leganes,0,2,A,8,9,3,3
+10/16/17,Las Palmas,Celta,2,5,A,24,14,11,7
+10/30/17,Las Palmas,Deportivo,1,3,A,13,15,5,5
+11/19/17,Las Palmas,Levante,0,2,A,10,11,5,6
+12/3/17,Las Palmas,Betis,1,0,H,21,8,7,2
+12/17/17,Las Palmas,Espanol,2,2,D,14,8,5,3
+1/6/18,Las Palmas,Eibar,1,2,A,4,14,2,5
+1/20/18,Las Palmas,Valencia,2,1,H,20,14,6,8
+2/5/18,Las Palmas,Malaga,1,0,H,11,9,4,3
+2/17/18,Las Palmas,Sevilla,1,2,A,11,12,3,6
+3/1/18,Las Palmas,Barcelona,1,1,D,12,10,1,4
+3/11/18,Las Palmas,Villarreal,0,2,A,9,11,3,4
+3/31/18,Las Palmas,Real Madrid,0,3,A,17,17,3,7
+4/14/18,Las Palmas,Real Sociedad,0,1,A,7,20,0,11
+4/22/18,Las Palmas,Alaves,0,4,A,12,10,1,7
+5/6/18,Las Palmas,Getafe,0,1,A,21,8,4,1
+5/19/18,Las Palmas,Girona,1,2,A,13,12,7,6
+8/18/17,Leganes,Alaves,1,0,H,16,6,9,3
+9/8/17,Leganes,Getafe,1,2,A,11,11,7,3
+9/20/17,Leganes,Girona,0,0,D,12,10,1,0
+9/30/17,Leganes,Atlético Madrid,0,0,D,7,11,3,2
+10/22/17,Leganes,Athletic Bilbao,1,0,H,15,7,4,1
+11/18/17,Leganes,Barcelona,0,3,A,18,11,7,7
+12/3/17,Leganes,Villarreal,3,1,H,12,12,5,4
+1/7/18,Leganes,Real Sociedad,1,0,H,8,9,4,5
+1/28/18,Leganes,Espanol,3,2,H,11,12,6,4
+2/10/18,Leganes,Eibar,0,1,A,2,19,0,6
+2/21/18,Leganes,Real Madrid,1,3,A,7,13,3,7
+2/24/18,Leganes,Las Palmas,0,0,D,11,4,2,1
+3/3/18,Leganes,Malaga,2,0,H,10,4,3,1
+3/18/18,Leganes,Sevilla,2,1,H,12,10,6,4
+4/1/18,Leganes,Valencia,0,1,A,8,3,1,1
+4/14/18,Leganes,Celta,1,0,H,19,5,7,2
+4/20/18,Leganes,Deportivo,0,0,D,13,12,0,3
+5/7/18,Leganes,Levante,0,3,A,13,10,2,3
+5/19/18,Leganes,Betis,3,2,H,8,16,3,8
+8/21/17,Levante,Villarreal,1,0,H,14,9,3,1
+8/26/17,Levante,Deportivo,2,2,D,24,11,5,4
+9/16/17,Levante,Valencia,1,1,D,9,13,2,5
+9/21/17,Levante,Real Sociedad,3,0,H,13,13,9,3
+9/30/17,Levante,Alaves,0,2,A,13,8,0,3
+10/21/17,Levante,Getafe,1,1,D,5,9,1,5
+11/5/17,Levante,Girona,1,2,A,7,10,4,5
+11/25/17,Levante,Atlético Madrid,0,5,A,17,16,2,11
+12/10/17,Levante,Athletic Bilbao,1,2,A,12,14,3,3
+12/19/17,Levante,Leganes,0,0,D,10,10,3,2
+1/14/18,Levante,Celta,0,1,A,15,3,5,2
+2/3/18,Levante,Real Madrid,2,2,D,12,23,4,9
+2/26/18,Levante,Betis,0,2,A,12,15,2,6
+3/4/18,Levante,Espanol,1,1,D,13,15,4,3
+3/16/18,Levante,Eibar,2,1,H,6,13,3,4
+4/8/18,Levante,Las Palmas,2,1,H,11,17,4,5
+4/19/18,Levante,Malaga,1,0,H,11,10,2,2
+4/27/18,Levante,Sevilla,2,1,H,15,22,5,4
+5/13/18,Levante,Barcelona,5,4,H,12,18,7,7
+8/21/17,Malaga,Eibar,0,1,A,10,13,4,6
+9/11/17,Malaga,Las Palmas,1,3,A,14,10,6,8
+9/23/17,Malaga,Athletic Bilbao,3,3,D,15,8,7,7
+10/15/17,Malaga,Leganes,0,2,A,13,19,5,9
+10/29/17,Malaga,Celta,2,1,H,15,10,4,2
+11/19/17,Malaga,Deportivo,3,2,H,14,12,5,4
+12/1/17,Malaga,Levante,0,0,D,18,3,2,3
+12/18/17,Malaga,Betis,0,2,A,18,10,2,4
+1/8/18,Malaga,Espanol,0,1,A,17,6,2,3
+1/27/18,Malaga,Girona,0,0,D,7,11,1,2
+2/10/18,Malaga,Atlético Madrid,0,1,A,13,5,3,1
+2/17/18,Malaga,Valencia,1,2,A,9,10,3,3
+2/28/18,Malaga,Sevilla,0,1,A,8,6,0,4
+3/10/18,Malaga,Barcelona,0,2,A,6,20,2,9
+4/1/18,Malaga,Villarreal,1,0,H,13,11,3,1
+4/15/18,Malaga,Real Madrid,1,2,A,13,16,3,6
+4/22/18,Malaga,Real Sociedad,2,0,H,4,14,3,2
+5/6/18,Malaga,Alaves,0,3,A,16,13,4,7
+5/19/18,Malaga,Getafe,0,1,A,6,11,2,3
+8/27/17,Real Madrid,Valencia,2,2,D,22,7,6,3
+9/9/17,Real Madrid,Levante,1,1,D,18,5,10,2
+9/20/17,Real Madrid,Betis,0,1,A,27,12,7,4
+10/1/17,Real Madrid,Espanol,2,0,H,22,8,8,3
+10/22/17,Real Madrid,Eibar,3,0,H,15,9,7,2
+11/5/17,Real Madrid,Las Palmas,3,0,H,27,2,9,1
+11/25/17,Real Madrid,Malaga,3,2,H,16,9,9,3
+12/9/17,Real Madrid,Sevilla,5,0,H,20,11,8,3
+12/23/17,Real Madrid,Barcelona,0,3,A,14,18,5,11
+1/13/18,Real Madrid,Villarreal,0,1,A,28,10,7,4
+1/21/18,Real Madrid,Deportivo,7,1,H,24,5,13,2
+2/10/18,Real Madrid,Real Sociedad,5,2,H,18,8,9,3
+2/24/18,Real Madrid,Alaves,4,0,H,25,11,10,5
+3/3/18,Real Madrid,Getafe,3,1,H,14,4,6,4
+3/18/18,Real Madrid,Girona,6,3,H,20,10,14,6
+4/8/18,Real Madrid,Atlético Madrid,1,1,D,30,9,8,5
+4/18/18,Real Madrid,Athletic Bilbao,1,1,D,29,6,10,2
+4/28/18,Real Madrid,Leganes,2,1,H,12,16,5,6
+5/12/18,Real Madrid,Celta,6,0,H,15,5,10,1
+8/19/17,Sevilla,Espanol,1,1,D,9,9,4,6
+9/9/17,Sevilla,Eibar,3,0,H,12,7,6,2
+9/20/17,Sevilla,Las Palmas,1,0,H,14,6,9,0
+9/30/17,Sevilla,Malaga,2,0,H,12,11,5,4
+10/28/17,Sevilla,Leganes,2,1,H,9,10,5,1
+11/18/17,Sevilla,Celta,2,1,H,12,11,5,5
+12/2/17,Sevilla,Deportivo,2,0,H,10,11,6,3
+12/15/17,Sevilla,Levante,0,0,D,16,10,6,2
+1/6/18,Sevilla,Betis,3,5,A,14,9,3,5
+1/28/18,Sevilla,Getafe,1,1,D,15,7,1,2
+2/11/18,Sevilla,Girona,1,0,H,13,14,4,6
+2/25/18,Sevilla,Atlético Madrid,2,5,A,10,13,5,8
+3/3/18,Sevilla,Athletic Bilbao,2,0,H,18,10,8,3
+3/10/18,Sevilla,Valencia,0,2,A,21,10,5,5
+3/31/18,Sevilla,Barcelona,2,2,D,21,20,6,9
+4/14/18,Sevilla,Villarreal,2,2,D,18,7,4,4
+5/4/18,Sevilla,Real Sociedad,1,0,H,16,11,6,1
+5/9/18,Sevilla,Real Madrid,3,2,H,14,14,6,4
+5/19/18,Sevilla,Alaves,1,0,H,20,10,8,4
+8/25/17,Real Sociedad,Villarreal,3,0,H,15,6,9,1
+9/17/17,Real Sociedad,Real Madrid,1,3,A,10,18,5,6
+9/24/17,Real Sociedad,Valencia,2,3,A,18,13,6,4
+10/1/17,Real Sociedad,Betis,4,4,D,17,10,6,6
+10/23/17,Real Sociedad,Espanol,1,1,D,19,4,5,1
+11/5/17,Real Sociedad,Eibar,3,1,H,10,9,6,5
+11/26/17,Real Sociedad,Las Palmas,2,2,D,16,8,3,7
+12/10/17,Real Sociedad,Malaga,0,2,A,18,9,2,5
+12/20/17,Real Sociedad,Sevilla,3,1,H,14,9,5,4
+1/14/18,Real Sociedad,Barcelona,2,4,A,15,11,6,5
+1/21/18,Real Sociedad,Celta,1,2,A,16,10,2,3
+2/2/18,Real Sociedad,Deportivo,5,0,H,19,4,8,1
+2/18/18,Real Sociedad,Levante,3,0,H,13,9,3,1
+3/4/18,Real Sociedad,Alaves,2,1,H,14,3,5,1
+3/17/18,Real Sociedad,Getafe,1,2,A,8,9,2,5
+4/8/18,Real Sociedad,Girona,5,0,H,13,8,7,1
+4/19/18,Real Sociedad,Atlético Madrid,3,0,H,12,9,4,2
+4/28/18,Real Sociedad,Athletic Bilbao,3,1,H,17,9,4,3
+5/12/18,Real Sociedad,Leganes,3,2,H,11,9,6,3
+8/18/17,Valencia,Las Palmas,1,0,H,22,5,6,4
+9/9/17,Valencia,Atlético Madrid,0,0,D,11,13,0,4
+9/19/17,Valencia,Malaga,5,0,H,16,11,11,2
+10/1/17,Valencia,Athletic Bilbao,3,2,H,10,16,6,6
+10/21/17,Valencia,Sevilla,4,0,H,18,18,8,5
+11/4/17,Valencia,Leganes,3,0,H,13,13,7,6
+11/26/17,Valencia,Barcelona,1,1,D,8,12,1,8
+12/9/17,Valencia,Celta,2,1,H,13,13,7,5
+12/23/17,Valencia,Villarreal,0,1,A,22,9,3,2
+1/6/18,Valencia,Girona,2,1,H,17,11,7,5
+1/27/18,Valencia,Real Madrid,1,4,A,11,13,4,7
+2/11/18,Valencia,Levante,3,1,H,18,5,8,1
+2/25/18,Valencia,Real Sociedad,2,1,H,7,9,4,3
+3/4/18,Valencia,Betis,2,0,H,12,9,6,4
+3/17/18,Valencia,Alaves,3,1,H,24,16,10,4
+4/8/18,Valencia,Espanol,1,0,H,14,21,6,6
+4/18/18,Valencia,Getafe,1,2,A,10,8,3,3
+4/29/18,Valencia,Eibar,0,0,D,16,8,5,2
+5/20/18,Valencia,Deportivo,2,1,H,22,12,5,7
+9/10/17,Villarreal,Betis,3,1,H,14,8,7,3
+9/21/17,Villarreal,Espanol,0,0,D,14,10,5,3
+10/1/17,Villarreal,Eibar,3,0,H,12,8,6,1
+10/22/17,Villarreal,Las Palmas,4,0,H,25,16,9,5
+11/5/17,Villarreal,Malaga,2,0,H,14,10,3,2
+11/26/17,Villarreal,Sevilla,2,3,A,19,15,4,4
+12/10/17,Villarreal,Barcelona,0,2,A,9,16,5,6
+1/7/18,Villarreal,Deportivo,1,1,D,11,13,5,3
+1/20/18,Villarreal,Levante,2,1,H,18,16,6,4
+1/27/18,Villarreal,Real Sociedad,4,2,H,11,24,7,6
+2/10/18,Villarreal,Alaves,1,2,A,27,5,6,4
+2/25/18,Villarreal,Getafe,1,0,H,10,3,4,2
+3/3/18,Villarreal,Girona,0,2,A,14,4,5,3
+3/18/18,Villarreal,Atlético Madrid,2,1,H,17,8,5,2
+4/9/18,Villarreal,Athletic Bilbao,1,3,A,7,17,2,13
+4/17/18,Villarreal,Leganes,2,1,H,17,6,6,1
+4/28/18,Villarreal,Celta,4,1,H,13,15,7,4
+5/5/18,Villarreal,Valencia,1,0,H,13,6,5,2
+5/19/18,Villarreal,Real Madrid,2,2,D,14,15,5,7
