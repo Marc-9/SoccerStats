@@ -1,8 +1,8 @@
-import java.io.BufferedWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 
-public class Teams {
+public class Teams{
+
 	public String teamName;
 	public ArrayList<Games> Games;
 	
@@ -29,11 +29,46 @@ public class Teams {
 		return team;	
 	}
 	
-	/*public static void Write(String filename, ArrayList<Games> Games) throws IOException{
-		BufferedWriter outputWriter = null;
+	public int totGoalsScored(String teamName, ArrayList<Games> Games) {
+		int totgoals = 0;
+		for(int i = 0; i < Games.size(); i++) {
+			if(Games.get(i).aTeam.equals(teamName)) {
+				totgoals += Games.get(i).aGoals;
+			}
+			else if(Games.get(i).hTeam.equals(teamName)) {
+				totgoals += Games.get(i).hGoals;
+			}
+		}
+		return totgoals;
+	}
+	
+	public int totGoalsConceded(String teamName, ArrayList<Games> Games) {
+		int totgoals = 0;
+		for(int i = 0; i < Games.size(); i++) {
+			if(!Games.get(i).aTeam.equals(teamName)) {
+				totgoals += Games.get(i).hGoals;
+			}
+			else if(!Games.get(i).hTeam.equals(teamName)) {
+				totgoals += Games.get(i).aGoals;
+			}
+		}
+		return totgoals;
+	}
+	
+	public void Write(String filename, ArrayList<Games> Games) throws IOException{
+		File f = new File("test2.txt");
+		FileOutputStream fos = new FileOutputStream(f);
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		
+		oos.writeObject(Games);
+		
+		oos.close();
 		
 		
-	}*/
+	}
+	
+	
+	
 	
 	
 	

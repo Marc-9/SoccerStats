@@ -1,9 +1,6 @@
-import java.util.ArrayList;
-import java.util.Scanner;
 import java.io.*;
-import java.util.Date;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+import java.util.*;
+import java.text.*;
 
 // Creates an ArrayList of the Constructor Games
 public class Season{
@@ -36,13 +33,20 @@ public class Season{
 	private void processLine(String gameString) throws ParseException{
 		Scanner s = new Scanner(gameString);
 		s.useDelimiter(",");
+		String div = s.next();
 		String date = s.next(); 
 		Date date1 = castDate(date);
 		String hTeam = s.next(), aTeam = s.next();
 		int hGoals = s.nextInt(), aGoals = s.nextInt();
 		char result = s.next().charAt(0);
-		int hShots = s.nextInt(), aShots = s.nextInt(), hShotsTarget = s.nextInt(), aShotsTarget = s.nextInt();
-		addGame(new Games(date1, hTeam, aTeam, hGoals, aGoals, result, hShots, aShots, hShotsTarget, aShotsTarget));
+		int htHGoals = s.nextInt(), htAGoals = s.nextInt();
+		char htResult = s.next().charAt(0);
+		int hShots = s.nextInt(), aShots = s.nextInt(), hShotsTarget = s.nextInt(), aShotsTarget = s.nextInt(), hFouls = s.nextInt(), aFouls = s.nextInt();
+		int hCorners = s.nextInt(), aCorners = s.nextInt(), hYellows = s.nextInt(), aYellows = s.nextInt(), hRed = s.nextInt(), aRed = s.nextInt();
+		double b365H = s.nextDouble(), b365D = s.nextDouble(), b365A = s.nextDouble(), bwH = s.nextDouble();
+		double bwD = s.nextDouble(), bwA = s.nextDouble(), iwH = s.nextDouble(), iwD = s.nextDouble(), iwA = s.nextDouble(), lbH = s.nextDouble(), lbD = s.nextDouble(), lbA = s.nextDouble();
+		double psH = s.nextDouble(), psD = s.nextDouble(), psA = s.nextDouble(), whH = s.nextDouble(), whD = s.nextDouble(), whA = s.nextDouble(), vcH = s.nextDouble(), vcD = s.nextDouble(), vcA = s.nextDouble();
+		addGame(new Games(div, date1, hTeam, aTeam, hGoals, aGoals, result, htHGoals, htAGoals, htResult, hShots, aShots, hShotsTarget, aShotsTarget, hFouls, aFouls, hCorners, aCorners, hYellows, aYellows, hRed, aRed, b365H, b365D, b365A, bwH, bwD, bwA, iwH, iwD, iwA, lbH, lbD, lbA, psH, psD, psA, whH, whD, whA, vcH, vcD, vcA));
 		s.close();
 		
 	}
@@ -50,7 +54,7 @@ public class Season{
 // Casts String to Date to be put into the Constructor	
 	private Date castDate(String date) throws ParseException {
 		Date date1;
-		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yy");
+		SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yy");
 		date1 = formatter.parse(date);
 		return date1;
 	}
@@ -66,46 +70,50 @@ public class Season{
 		return start + " " + end;
 	}
 	
+	public ArrayList<String> listTeams(ArrayList<String> temp){
+		for(int i = 0; i < Season.size(); i++) {
+			temp.add(Season.get(i).hTeam);
+		}
+		for (int i = 0; i < temp.size(); i++) {
+			for(int j = i+1; j < temp.size(); j++) {
+				if(temp.get(i).equals(temp.get(j))) {
+					temp.remove(j);
+					j--;
+				}
+		}
+		}
+		return temp;
+	}
+	
 	
 
 	
 	public static void main(String[] args) throws ParseException {
 		
-		Season season_17_18 = new Season();
-		season_17_18.readGames("6.txt");
-		Teams Alaves = new Teams("Alaves", season_17_18.Season);
-		System.out.println(Alaves.Games);
-		System.out.println(Alaves.Games.size());
 		
 		
-	
+		
+		Season season_10_18 = new Season();
+		season_10_18.readGames("season_10_18.txt");
+		/*To get data from Season
+		 * season_17_18.Season.size();
+		 * season_17_18.Season.get(i).hYellows
+		 */
+		
+		Teams Valencia = new Teams("Valencia", season_10_18.Season);
+		/*To get data from Team
+		 * Valencia.Games.size()
+		 * Valencia.Games.get(i).hGoals
+		 */
 		
 		
-		/*double totalGoals = 0;
-		double totalShots = 0;
-		double shotsOnTarget = 0;
-		for(int i = 0; i < season_17_18.games.size(); i++) {
-			totalGoals += season_17_18.games.get(i).aGoals + season_17_18.games.get(i).hGoals;
-			totalShots += season_17_18.games.get(i).aShots + season_17_18.games.get(i).hShots;
-			shotsOnTarget += season_17_18.games.get(i).aShotsTarget + season_17_18.games.get(i).hShotsTarget;
-		}
-		double goalsPerGame = (totalGoals / season_17_18.games.size());
-		double shotsPerGoal = (totalShots/totalGoals);
-		double shotsonTperGoal = (shotsOnTarget/totalGoals);
-		System.out.printf("Total number of Goals scored in the 17/18 Season is %.0f\n", totalGoals);
-		System.out.printf("Total number of Shots in the 17/18 Season is %.0f\n", totalShots);
-		System.out.printf("Total number of Shots on target in the 17/18 Season is %.0f\n", shotsOnTarget);
-		System.out.printf("There were %.3f goals per game\n", goalsPerGame);
-		System.out.printf("There were %.3f shots per goal\n", shotsPerGoal);
-		System.out.printf("There were %.3f shots on target per goal\n", shotsonTperGoal);*/
+		ArrayList<String> temp = new ArrayList<>();
+		season_10_18.listTeams(temp);
+		System.out.println(temp);
+		
+		
+		
 
-		/*System.out.println(season_17_18);
-		
-		Date start = Games.createDate("19-08-17");
-		Date end = Games.createDate("23-12-17");
-		System.out.println("Start date: " + start.toString());
-		System.out.println("End date: " + end.toString());
-		System.out.println(season_17_18.findGames(start, end));*/
 		
 		
 	
