@@ -29,7 +29,7 @@ public class Teams{
 		return team;	
 	}
 	
-	public int totGoalsScored(String teamName, ArrayList<Games> Games) {
+	public int totGoalsScored() {
 		int totgoals = 0;
 		for(int i = 0; i < Games.size(); i++) {
 			if(Games.get(i).aTeam.equals(teamName)) {
@@ -42,18 +42,20 @@ public class Teams{
 		return totgoals;
 	}
 	
-	public int totGoalsConceded(String teamName, ArrayList<Games> Games) {
+	public int totGoalsConceded() {
 		int totgoals = 0;
 		for(int i = 0; i < Games.size(); i++) {
 			if(!Games.get(i).aTeam.equals(teamName)) {
-				totgoals += Games.get(i).hGoals;
+				totgoals += Games.get(i).aGoals;
 			}
 			else if(!Games.get(i).hTeam.equals(teamName)) {
-				totgoals += Games.get(i).aGoals;
+				totgoals += Games.get(i).hGoals;
 			}
 		}
 		return totgoals;
 	}
+	
+	
 	
 	public void Write(String filename, ArrayList<Games> Games) throws IOException{
 		File f = new File("test2.txt");
