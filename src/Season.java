@@ -43,10 +43,7 @@ public class Season{
 		char htResult = s.next().charAt(0);
 		int hShots = s.nextInt(), aShots = s.nextInt(), hShotsTarget = s.nextInt(), aShotsTarget = s.nextInt(), hFouls = s.nextInt(), aFouls = s.nextInt();
 		int hCorners = s.nextInt(), aCorners = s.nextInt(), hYellows = s.nextInt(), aYellows = s.nextInt(), hRed = s.nextInt(), aRed = s.nextInt();
-		double b365H = s.nextDouble(), b365D = s.nextDouble(), b365A = s.nextDouble(), bwH = s.nextDouble();
-		double bwD = s.nextDouble(), bwA = s.nextDouble(), iwH = s.nextDouble(), iwD = s.nextDouble(), iwA = s.nextDouble(), lbH = s.nextDouble(), lbD = s.nextDouble(), lbA = s.nextDouble();
-		double psH = s.nextDouble(), psD = s.nextDouble(), psA = s.nextDouble(), whH = s.nextDouble(), whD = s.nextDouble(), whA = s.nextDouble(), vcH = s.nextDouble(), vcD = s.nextDouble(), vcA = s.nextDouble();
-		addGame(new Games(div, date1, hTeam, aTeam, hGoals, aGoals, result, htHGoals, htAGoals, htResult, hShots, aShots, hShotsTarget, aShotsTarget, hFouls, aFouls, hCorners, aCorners, hYellows, aYellows, hRed, aRed, b365H, b365D, b365A, bwH, bwD, bwA, iwH, iwD, iwA, lbH, lbD, lbA, psH, psD, psA, whH, whD, whA, vcH, vcD, vcA));
+		addGame(new Games(div, date1, hTeam, aTeam, hGoals, aGoals, result, htHGoals, htAGoals, htResult, hShots, aShots, hShotsTarget, aShotsTarget, hFouls, aFouls, hCorners, aCorners, hYellows, aYellows, hRed, aRed));
 		s.close();
 		
 	}
@@ -100,16 +97,23 @@ public class Season{
 		 * season_17_18.Season.get(i).hYellows
 		 */
 		
-		Teams Valencia = new Teams("Valencia", season_10_18.Season);
+		
 		/*To get data from Team
 		 * Valencia.Games.size()
 		 * Valencia.Games.get(i).hGoals
 		 */
+		Teams Valencia = new Teams("Barcelona", season_10_18.Season);
+		System.out.println(Valencia.Games.get(0).aGoals);
+		System.out.println(Valencia.Games.get(0).hGoals);
+		System.out.println(Valencia.totGoalsConceded());
+		System.out.println(Valencia.totGoalsScored());
+		System.out.println("# of Seasons in dataset is " + (Valencia.Games.size()/38));
+		System.out.println((Valencia.totGoalsScored()-Valencia.totGoalsConceded()) / 8.0);
 		
 		
-		ArrayList<String> temp = new ArrayList<>();
+		/*ArrayList<String> temp = new ArrayList<>();
 		season_10_18.listTeams(temp);
-		System.out.println(temp);
+		System.out.println(temp);*/
 		
 		
 		
