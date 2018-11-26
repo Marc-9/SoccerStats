@@ -5,13 +5,13 @@ import java.util.Date;
 public class Games{
 	// Data provided by the Constructor
 	int hGoals, aGoals, htHGoals, htAGoals, hShots, aShots, hShotsTarget, aShotsTarget, hFouls, aFouls, hCorners, aCorners, hYellows, aYellows, hRed, aRed;
-	String hTeam, aTeam, div;
+	String hTeam, aTeam, div, referee;
 	Date date;
 	char result, htResult;
 	
 // This is the Games Constructor to initialize each element in the ArrayList once again, change it to your dataset 
-	public Games(String div, Date date, String hTeam, String aTeam, int hGoals, int aGoals, char result, int htHGoals, int htAGoals, char htResult, int hShots, int aShots, int hShotsTarget, int aShotsTarget, int hFouls, int aFouls, int hCorners, int aCorners, int hYellows, int aYellows, int hRed, int aRed) {
-		this.div = div; this.date = date; this.hTeam = hTeam; this.aTeam = aTeam; this.hGoals = hGoals; this.aGoals = aGoals; this.result = result; this.htHGoals = htHGoals; this.htAGoals = htAGoals; this.htResult = htResult; this.hShots = hShots;
+	public Games(String div, Date date, String hTeam, String aTeam, int hGoals, int aGoals, char result, int htHGoals, int htAGoals, char htResult, String referee, int hShots, int aShots, int hShotsTarget, int aShotsTarget, int hFouls, int aFouls, int hCorners, int aCorners, int hYellows, int aYellows, int hRed, int aRed) {
+		this.div = div; this.date = date; this.hTeam = hTeam; this.aTeam = aTeam; this.hGoals = hGoals; this.aGoals = aGoals; this.result = result; this.htHGoals = htHGoals; this.htAGoals = htAGoals; this.htResult = htResult; this.referee = referee; this.hShots = hShots;
 		this.aShots = aShots; this.hShotsTarget = hShotsTarget; this.aShotsTarget = aShotsTarget; this.hFouls = hFouls; this.aFouls = aFouls; this.hCorners = hCorners; this.aCorners = aCorners; this.hYellows = hYellows; this.aYellows = aYellows;
 		this.hRed = hRed; this.aRed = aRed; 
 	}
@@ -30,7 +30,9 @@ public class Games{
 		else if (this.result == 'D') {
 			result += "drew with";
 		}
-		temp += "On " + date + " " + hTeam + " " + result + " " + aTeam + " " + hGoals + " to " + aGoals + "\n";
+		temp += "On " + date + " " + hTeam + " " + result + " " + aTeam + " " + hGoals + " to " + aGoals + "\n"
+				+ hTeam + " had " + hShotsTarget + " shots on target to " + aTeam + "\'s " + aShotsTarget + " and at Halftime the score was " + htHGoals + " to " + htAGoals + "\n"
+				+ hTeam + " commited " + hFouls + " fouls getting " + hYellows + " yellows and " + hRed + " red and " + aTeam + " commited " + aFouls + " fouls getting " + aYellows + " yellows and " + aRed + " red\n";
 		return temp;
 	}
 
@@ -57,6 +59,7 @@ public class Games{
 		}
 		return returnDate;
     }
+	
 	
 
 

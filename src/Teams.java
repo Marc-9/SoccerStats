@@ -16,6 +16,8 @@ public class Teams{
 		
 	}
 	
+	
+	
 	public ArrayList<Games> parseGames(String teamName, ArrayList<Games> games){
 		ArrayList<Games> team = new ArrayList<>();
 		for (int i = 0; i < games.size(); i++) {
@@ -53,6 +55,44 @@ public class Teams{
 			}
 		}
 		return totgoals;
+	}
+	
+	public void records() {
+		int hWins = 0, hDraws = 0, hLosses = 0;
+		int aWins = 0, aDraws = 0, aLosses = 0;
+		int totWins = 0, totDraws = 0, totLosses = 0;
+		for(int i = 0; i < Games.size(); i++) {
+			if(Games.get(i).hTeam.equals(teamName)) {
+				if(Games.get(i).result == 'H') {
+					hWins++;
+				}
+				else if(Games.get(i).result == 'D') {
+					hDraws++;
+				}
+				else if (Games.get(i).result == 'A') {
+					hLosses++;
+				}
+			}
+			else if(Games.get(i).aTeam.equals(teamName)) {
+					if(Games.get(i).result == 'H') {
+						aLosses++;
+					}
+					else if(Games.get(i).result == 'D') {
+						aDraws++;
+					}
+					else if (Games.get(i).result == 'A') {
+						aWins++;
+					}
+			}
+		}
+		totWins = hWins + aWins;
+		totDraws = hDraws + aDraws;
+		totLosses = hLosses + aLosses;
+		System.out.println("" + teamName + " had " + totWins + " wins, " + totDraws + " draws, and " + totLosses + " losses in "+ Games.size() + " Games");
+		System.out.println("" + hWins + " wins were at home and " + aWins + " were away from home");
+		System.out.println("" + hDraws + " draws were at home and " + aDraws + " were away from home" );
+		System.out.println("" + hLosses + " losses were at home and " + aLosses + " were away from home");
+		
 	}
 	
 	
