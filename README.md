@@ -16,19 +16,19 @@
 <p>To string is another again just made for the data I input, and it calls the toString method made in Games.java</p>
 <p>Lastly findGames.java is a work in process as would call and find games from the inInterval function</p>
 <h1> Commands </h1>
-<p>Now that you understand each file and their function lets learn how to implement these to run analytics on your data</p>
+<p>Now that you understand each file and their function lets learn how to implement these to run analytics on your data, this code goes into the Main Body of Season.java</p>
+<h2>Initalize Data</h2>
 <ol>
-  <li>Season name = new Season();</li>
+  <li>Season SEASON_NAME = new Season();</li>
     <ul>
-      <li>Firstly you need to create a Season Instance to work with the functions in that file.</li>
+      <li>Creates an instance of Season, to run commands in Season with</li>
     </ul>
-  <li>name.readGames("filename")</li>
+  <li>SEASON_NAME.readGames(“[File Name]“);</li>
     <ul>
-      <li>Read the file into the program, and make sure you chnaged the constructor from Games.java so it understand it </li>
+      <li>Reads the stats from the file into the provided data constructors, the Stats have now been initialized and you can use the methods provided to run analysis or create your own. Below are some examples</li>
     </ul>
  </ol>
- <p>So far thats all the functions you need to know how to call to get it running, then you can start some basic analystics, so the examples I give below only works for the data I input, which can be found in the src java file as of now</p>
-<p>Some initial analytics I ran was to find the number of goals scored in a season and how many shots there were in that season, etc<br />That code can be found in the src folder</p>
+ <p></p>
 <h1>To do</h1>
 <ol>
   <li>Finish InInterval... and other functions relating to dates</li>
