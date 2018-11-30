@@ -17,7 +17,7 @@
 <p>Lastly findGames.java is a work in process as would call and find games from the inInterval function</p>
 <h1> Commands </h1>
 <p>Now that you understand each file and their function lets learn how to implement these to run analytics on your data, this code goes into the Main Body of Season.java</p>
-<h2>Initalize Data</h2>
+<h3>Initalize Data</h3>
 <ol>
   <li>Season SEASON_NAME = new Season();</li>
     <ul>
@@ -28,7 +28,7 @@
       <li>Reads the stats from the file into the provided data constructors, the Stats have now been initialized and you can use the methods provided to run analysis or create your own. Below are some examples</li>
     </ul>
  </ol>
- <h2>Run Analytics</h2>
+ <h3>Run Analytics</h3>
 <ol>
   <li>ArrayList<String> teams = SEASON_NAME.listTeams()</li>
     <ul>
