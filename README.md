@@ -16,7 +16,7 @@
 <p>To string is another again just made for the data I input, and it calls the toString method made in Games.java</p>
 <p>Lastly findGames.java is a work in process as would call and find games from the inInterval function</p>
 <h1> Commands </h1>
-<p>Now that you understand each file and their function lets learn how to implement these to run analytics on your data, this code goes into the Main Body of Season.java</p>
+<p>The only commands that NEED to be run are the commands to initlaize the data, the analytics commands are optional and are just there to help facilitate you in writing whatever commands you want. Now that you understand each file and their function lets learn how to implement these to run analytics on your data, this code goes into the Main Body of Season.java</p>
 <h3>Initalize Data</h3>
 <ol>
   <li>Season SEASON_NAME = new Season();</li>
