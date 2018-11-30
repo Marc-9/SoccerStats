@@ -28,7 +28,36 @@
       <li>Reads the stats from the file into the provided data constructors, the Stats have now been initialized and you can use the methods provided to run analysis or create your own. Below are some examples</li>
     </ul>
  </ol>
- <p></p>
+ <h2>Run Analytics</h2>
+<ol>
+  <li>ArrayList<String> teams = SEASON_NAME.listTeams()</li>
+    <ul>
+      <li>Creates an ArrayList of Teams form the data,If you wanted just teams from a certain division write an additional method that reads the Division variable </li>
+    </ul>
+  <li>Teams TEAM_NAME= new Teams(“TEAM_NAME”, SEASON_NAME);</li>
+    <ul>
+     <li>Gets all games from provided Team Name</li>
+   </ul>
+  <li>SEASON_NAME.head2Head(“TEAM_NAME_1”, “TEAM_NAME_2”));</li>
+    <ul>
+      <li>Prints the head to head record between the two provided teams</li>
+     </ul>
+  <li>SEASON_NAME.Season.*</li>
+    <ul>
+      <li>Same concept applies to getting data from entire Team file, TEAM_NAME.Games.*<li>
+    </ul>
+  <li>SEASON_NAME.Season.size()</li>
+    <ul>
+      <li>Gets number of games played</li>
+    </ul>
+  <li>int goals = 0; <br />
+    for (int i = 0; i < SEASON_NAME.Season.size(); i++) { <br />
+    goals += SEASON_NAME.Season.get(i).totGoals;}</li>
+    <ul>
+      <li>Gets the total number of goals scored in the data set, *NOTE* Tot goals is not apart of the provided data but a data point I made by adding away goals and home goals from each game provided to speed up the loop</li>
+  </ul>
+  </ul>
+ </ol>
 <h1>To do</h1>
 <ol>
   <li>Finish InInterval... and other functions relating to dates</li>
