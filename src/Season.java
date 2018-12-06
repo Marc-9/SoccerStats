@@ -198,6 +198,21 @@ public class Season{
 		}
 
 	
+	public String loopAsk() {
+		String next = "null";
+		Scanner input = new Scanner(System.in);
+			System.out.println("Welcome to the Soccer Stats Program, for info press 1, for a list of commands press 2, to quit enter q\nor just type the number that corresponds to the command you wish to run:");
+				next = input.next();
+				switch(next) {
+				case "1": case "2": case "q": case "Q": case "4": case "5":
+					break;
+				default: System.out.println("Not a Valid input\n"); return loopAsk();
+				}
+
+		
+		return next;
+	}
+	
 	
 
 	
@@ -206,56 +221,72 @@ public class Season{
 		
 		
 		
-		long startTime = System.currentTimeMillis();
 		
-		Season season_05_19 = new Season();
-		season_05_19.readGames("season_05_19.txt");
-		ArrayList<String> teams = new ArrayList<>();
-		//teams = season_05_19.listTeams();
-		//System.out.println(teams);
+		//Season season_05_19 = new Season();
+		//season_05_19.readGames("season_05_19.txt");
+		input yo = new input();
+		Season command = new Season();
 		
+		//Code that runs until it recieves a valid input
 		
-	
-		
-		
-		
-		//ArrayList<String> teams = season_05_19.listTeams();
-		/*Teams Valencia = new Teams("Valencia", season_05_19.Season);
-		System.out.println("Valencia scored " + Valencia.totGoalsScored());
-		System.out.println("Valencia conceded " + Valencia.totGoalsConceded());
-		Valencia.records();*/
-		Teams Tottenham = new Teams("Tottenham", season_05_19.Season);
-		System.out.println(season_05_19.head2Head("Barcelona", "Atletico Madrid"));
-		//ArrayList<Games> Barca_Madrid = season_05_19.head2Head("Barcelona", "Real Madrid");
-	
-		long endTime = System.currentTimeMillis();
-		System.out.println("The Process took " + (endTime-startTime)/1000.0 + " seconds");
-		
-		/*To get data from Season
-		 * season_17_18.Season.size();
-		 * season_17_18.Season.get(i).hYellows
-		 */
-		
-		
-		
-		/*To get data from Team
-		 * Teams Valencia = new Teams("Valencia", season_05_19.Season);
-		 * Valencia.Games.size()
-		 * Valencia.Games.get(i).hGoals
-		 */
-		
-		
-		
-		/*ArrayList<String> temp = new ArrayList<>();
-		season_10_18.listTeams(temp);
-		System.out.println(temp);*/
-		
+
+		String next = command.loopAsk();
+		do {
+		switch(next) {
+			case "1": 
+				System.out.println("\nSoccer Stata Program is a Java Based Application to give users the ability to run analytics on a data set");
+				System.out.println("The Program is still in beta but your input is greatly appreciated, to leave feedback or get more info, view the github \nhttps://github.com/Marc-9/SoccerStats\n");
+				next = command.loopAsk();
+				break;
+			case "2":
+				System.out.println("\nTo read in your data press 4");
+				System.out.println("To compare two teams press 5\n");
+				next = command.loopAsk();
+				break;
+			case "4":
+				long startTime = System.currentTimeMillis();
+				yo.readfile();
+				long endTime = System.currentTimeMillis();
+				System.out.println("The Process took " + (endTime-startTime)/1000.0 + " seconds");
+				System.out.println("You no longer need to read in the data until you restart the program\n");
+				next = command.loopAsk();
+				break;
+			case "5":
+				yo.head2head();
+				next = command.loopAsk();
+				break;
+		}
+		}while(!(next.equalsIgnoreCase("q")));
 		
 		
 
+		/*int returnvalue;
+		System.out.println("enter an integer");
+		Scanner s = new Scanner(System.in);
+		returnvalue = s.nextInt();
+		long startTime2 = System.currentTimeMillis();
+		if(returnvalue == 1) {
+		double goals = 0;
+		for (int i = 0; i < season_05_19.Season.size(); i++) {
+			goals += season_05_19.Season.get(i).totGoals;
+		}
+		double goalmed = goals/ season_05_19.Season.size();
+		System.out.println(goalmed);
+		}
+		long endTime2 = System.currentTimeMillis();
+		System.out.println("The Process took " + (endTime2-startTime2)/1000.0 + " seconds");
 		
 		
-	
+		System.out.println("enter an integer");
+		returnvalue = s.nextInt();
+		long startTime3 = System.currentTimeMillis();
+		if(returnvalue == 1) {
+			System.out.println(season_05_19.head2Head("Valencia", "Sevilla"));
+		}
+		long endTime3 = System.currentTimeMillis();
+		System.out.println("The Process took " + (endTime3-startTime3)/1000.0 + " seconds");
+		s.close();*/
+		
 		
 		
 		

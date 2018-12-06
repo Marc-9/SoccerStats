@@ -4,7 +4,7 @@ import java.util.Date;
 // This is where you Declare all variables in your data set
 public class Games{
 	// Data provided by the Constructor
-	int hGoals, aGoals, htHGoals, htAGoals, hShots, aShots, hShotsTarget, aShotsTarget, hFouls, aFouls, hCorners, aCorners, hYellows, aYellows, hRed, aRed;
+	int hGoals, aGoals, htHGoals, htAGoals, hShots, aShots, hShotsTarget, aShotsTarget, hFouls, aFouls, hCorners, aCorners, hYellows, aYellows, hRed, aRed, totGoals;
 	String hTeam, aTeam, div, referee;
 	Date date;
 	char result, htResult;
@@ -13,7 +13,8 @@ public class Games{
 	public Games(String div, Date date, String hTeam, String aTeam, int hGoals, int aGoals, char result, int htHGoals, int htAGoals, char htResult, String referee, int hShots, int aShots, int hShotsTarget, int aShotsTarget, int hFouls, int aFouls, int hCorners, int aCorners, int hYellows, int aYellows, int hRed, int aRed) {
 		this.div = div; this.date = date; this.hTeam = hTeam; this.aTeam = aTeam; this.hGoals = hGoals; this.aGoals = aGoals; this.result = result; this.htHGoals = htHGoals; this.htAGoals = htAGoals; this.htResult = htResult; this.referee = referee; this.hShots = hShots;
 		this.aShots = aShots; this.hShotsTarget = hShotsTarget; this.aShotsTarget = aShotsTarget; this.hFouls = hFouls; this.aFouls = aFouls; this.hCorners = hCorners; this.aCorners = aCorners; this.hYellows = hYellows; this.aYellows = aYellows;
-		this.hRed = hRed; this.aRed = aRed; 
+		this.hRed = hRed; this.aRed = aRed;
+		this.totGoals = aGoals + hGoals;
 	}
 
 	
@@ -50,7 +51,7 @@ public class Games{
 // A method to take provided Strings and cast them as dates, still in progress like the above method	
 	public static Date createDate(String date) {
 		Date returnDate = null;
-		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yy");
+		SimpleDateFormat formatter = new SimpleDateFormat("MM-dd-yy");
 		String stringDate = date;
 		try {
 			returnDate = formatter.parse(stringDate);
