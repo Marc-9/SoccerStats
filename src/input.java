@@ -1,5 +1,6 @@
 import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Scanner;
 
 public class input {
@@ -7,7 +8,7 @@ public class input {
 	String team1, team2;
 	
 	public void readfile() throws ParseException{
-		test.readGames("season_05_19.txt");
+		test.readGames("season_05_19_champs.txt");
 	}
 	
 	public String getTeams() {
@@ -19,8 +20,6 @@ public class input {
 		boolean b = false;
 			for(int i = 0; i < teams.size(); i++) {
 				String tempteam = teams.get(i);
-				System.out.println(tempteam);
-				System.out.println(team);
 				if(tempteam.equalsIgnoreCase(team)) {
 					b = true;
 				}
@@ -36,16 +35,29 @@ public class input {
 		return team;
 		}
 	public void head2head() {
-		Scanner n = new Scanner(System.in);
-		System.out.println("The Head to Head method requires two teams, enter anything to continue or q to quit to main menu");
-		String value = n.next();
-		if(value.equals("q") || value.equals("Q")) {
-			return;
-		}
+		System.out.println("The Head to Head method requires two teams,enter two team names or q to quit to main menu");
 		team1 = getTeams();
 		team2 = getTeams();
 		System.out.println(test.head2Head(team1, team2));
 
+	}
+	
+	public void dates() throws ParseException {
+		Date start, end;
+		
+		Scanner s = new Scanner(System.in);
+		System.out.println("The Dates method takes in two dates, a start and an end, please enter dates as dd/mm/yy");
+		System.out.println("Enter start date");
+			start = test.castDate(s.next());
+		System.out.println("Enter end date");
+			end = test.castDate(s.next());
+			
+		ArrayList<Games> games = test.findGames(start, end);
+		for(int i = 0; i < games.size(); i++) {
+			System.out.println(games.get(i));
+		}
+		
+		
 	}
 
 	public static void main(String[] args) {

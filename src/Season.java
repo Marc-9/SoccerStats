@@ -58,9 +58,9 @@ public class Season{
 	}
 	
 // Casts String to Date to be put into the Constructor	
-	private Date castDate(String date) throws ParseException {
+	public Date castDate(String date) throws ParseException {
 		Date date1;
-		SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yy");
+		SimpleDateFormat formatter = new SimpleDateFormat("MM/dd/yy");
 		date1 = formatter.parse(date);
 		return date1;
 	}
@@ -72,8 +72,14 @@ public class Season{
 	
 	
 // Another in progress method to findgames within the Interval
-	public String findGames(Date start, Date end) {
-		return start + " " + end;
+	public ArrayList<Games> findGames(Date start, Date end) {
+		ArrayList<Games> gamesInDate = new ArrayList<>();
+		for(int i = 0; i < Season.size(); i++) {
+			if(Season.get(i).date.after(start) && Season.get(i).date.before(end)) {
+				gamesInDate.add(Season.get(i));
+			}
+		}
+		return gamesInDate;
 	}
 	
 	public ArrayList<String> listTeams(){
@@ -204,7 +210,7 @@ public class Season{
 			System.out.println("Welcome to the Soccer Stats Program, for info press 1, for a list of commands press 2, to quit enter q\nor just type the number that corresponds to the command you wish to run:");
 				next = input.next();
 				switch(next) {
-				case "1": case "2": case "q": case "Q": case "4": case "5":
+				case "1": case "2": case "q": case "Q": case "4": case "5": case "6":
 					break;
 				default: System.out.println("Not a Valid input\n"); return loopAsk();
 				}
@@ -218,17 +224,8 @@ public class Season{
 	
 	public static void main(String[] args) throws ParseException {
 		
-		
-		
-		
-		
-		//Season season_05_19 = new Season();
-		//season_05_19.readGames("season_05_19.txt");
 		input yo = new input();
 		Season command = new Season();
-		
-		//Code that runs until it recieves a valid input
-		
 
 		String next = command.loopAsk();
 		do {
@@ -255,40 +252,13 @@ public class Season{
 				yo.head2head();
 				next = command.loopAsk();
 				break;
+			case "6":
+				yo.dates();
+				next = command.loopAsk();
+				break;
 		}
 		}while(!(next.equalsIgnoreCase("q")));
-		
-		
-
-		/*int returnvalue;
-		System.out.println("enter an integer");
-		Scanner s = new Scanner(System.in);
-		returnvalue = s.nextInt();
-		long startTime2 = System.currentTimeMillis();
-		if(returnvalue == 1) {
-		double goals = 0;
-		for (int i = 0; i < season_05_19.Season.size(); i++) {
-			goals += season_05_19.Season.get(i).totGoals;
-		}
-		double goalmed = goals/ season_05_19.Season.size();
-		System.out.println(goalmed);
-		}
-		long endTime2 = System.currentTimeMillis();
-		System.out.println("The Process took " + (endTime2-startTime2)/1000.0 + " seconds");
-		
-		
-		System.out.println("enter an integer");
-		returnvalue = s.nextInt();
-		long startTime3 = System.currentTimeMillis();
-		if(returnvalue == 1) {
-			System.out.println(season_05_19.head2Head("Valencia", "Sevilla"));
-		}
-		long endTime3 = System.currentTimeMillis();
-		System.out.println("The Process took " + (endTime3-startTime3)/1000.0 + " seconds");
-		s.close();*/
-		
-		
-		
+		System.out.println("GoodBye");	
 		
 
 	}
